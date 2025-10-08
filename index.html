@@ -1,19 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Quasar Consulting | AI, ML & Data Engineering</title>
-
-<!-- Fonts & Icons -->
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 <style>
-/* ---------- Global ---------- */
 body {
   margin: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   background: #f5f7fa;
   color: #222;
   line-height: 1.6;
@@ -25,14 +21,18 @@ header {
   padding: 100px 20px;
 }
 header h1 {
-  font-size: 3em;
-  margin: 0 0 15px;
+  font-size: 3.2em;
+  margin-bottom: 20px;
+  font-weight: 700;
 }
 header p {
-  font-size: 1.4em;
-  opacity: 0.95;
+  font-size: 1.3em;
   max-width: 900px;
-  margin: 0 auto;
+  margin: 20px auto;
+  opacity: 0.95;
+}
+header p.small {
+  font-size: 1.1em;
 }
 section {
   padding: 70px 8%;
@@ -49,14 +49,13 @@ section {
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   gap: 25px;
 }
-
-/* ---------- Cards ---------- */
+/* Cards */
 .card {
   background: #fff;
   padding: 25px;
   border-radius: 15px;
   text-align: center;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
   transition: transform 0.3s;
 }
 .card:hover {
@@ -72,14 +71,13 @@ section {
   font-size: 1.2em;
   color: #0047ab;
 }
-
-/* ---------- Tech Tiles ---------- */
+/* Tech Tiles */
 .tech-tile {
   background: #fff;
   border-radius: 12px;
   padding: 25px 15px;
   text-align: center;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   transition: 0.3s;
 }
 .tech-tile:hover {
@@ -94,8 +92,7 @@ section {
   margin: 0;
   font-weight: 500;
 }
-
-/* ---------- Footer ---------- */
+/* Footer */
 footer {
   background: #002b5b;
   color: white;
@@ -107,13 +104,15 @@ footer {
 </head>
 <body>
 
-<!-- ---------- Hero Section ---------- -->
+<!-- Hero Section -->
 <header>
   <h1>Quasar Consulting</h1>
-  <p>We help companies unlock the full value of their data. Using AI, ML, Business Intelligence, and Data Engineering, Quasar Consulting transforms raw data into actionable insights, enabling businesses to identify opportunities, optimize processes, and create new revenue streams. Turn your data into profit, competitive advantage, and smarter decision-making with our end-to-end solutions.</p>
+  <p class="small">At Quasar Consulting, we help businesses unlock the full potential of their data. Every company generates massive amounts of data, but only a fraction is leveraged effectively. Using AI, ML, and BI, we transform raw data into actionable insights that directly drive business growth.</p>
+  <p>AI and ML allow companies to detect patterns, predict trends, and automate decisions at scale. BI tools turn these insights into interactive dashboards and actionable strategies, enabling leadership to make informed decisions faster. By leveraging these technologies, organizations can identify untapped revenue opportunities, optimize operations, and gain a significant competitive advantage.</p>
+  <p>Our mission is to help companies monetize their data, turning information into profits, efficiency, and innovation. Whether it’s modernizing legacy products, implementing AI-driven workflows, or building predictive analytics pipelines, Quasar Consulting empowers businesses to capitalize on the full value of their data assets.</p>
 </header>
 
-<!-- ---------- Core Services ---------- -->
+<!-- Core Services -->
 <section>
   <h2 class="section-title">Our Core Services</h2>
   <div class="grid">
@@ -165,51 +164,47 @@ footer {
   </div>
 </section>
 
-<!-- ---------- Technologies ---------- -->
+<!-- Platforms & Technologies -->
 <section>
   <h2 class="section-title">Platforms & Technologies</h2>
   <div class="grid">
-    <div class="tech-tile"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" alt=""><p>Microsoft Azure</p></div>
-    <div class="tech-tile"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg" alt=""><p>AWS</p></div>
-    <div class="tech-tile"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" alt=""><p>Google Cloud</p></div>
-    <div class="tech-tile"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/databricks/databricks-original.svg" alt=""><p>Databricks</p></div>
-    <div class="tech-tile"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/snowflake/snowflake-original.svg" alt=""><p>Snowflake</p></div>
-    <div class="tech-tile"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt=""><p>Python</p></div>
-    <div class="tech-tile"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" alt=""><p>PyTorch</p></div>
-    <div class="tech-tile"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" alt=""><p>TensorFlow</p></div>
-    <div class="tech-tile"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apachekafka/apachekafka-original.svg" alt=""><p>Apache Kafka</p></div>
-    <div class="tech-tile"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apachespark/apachespark-original.svg" alt=""><p>Apache Spark</p></div>
-    <div class="tech-tile"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt=""><p>PostgreSQL</p></div>
-    <div class="tech-tile"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt=""><p>MongoDB</p></div>
-    <div class="tech-tile"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt=""><p>Docker</p></div>
-    <div class="tech-tile"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" alt=""><p>Kubernetes</p></div>
-    <div class="tech-tile"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt=""><p>Git / DevOps</p></div>
-    <div class="tech-tile"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-original.svg" alt=""><p>Terraform</p></div>
-    <div class="tech-tile"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg" alt=""><p>VS Code / Dev Tools</p></div>
+    <div class="tech-tile"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" alt="Azure"><p>Microsoft Azure</p></div>
+    <div class="tech-tile"><img src="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg" alt="AWS" style="width:60px;height:60px;"><p>AWS</p></div>
+    <div class="tech-tile"><img src="https://upload.wikimedia.org/wikipedia/commons/5/54/Google_Cloud_Logo.svg" alt="Google Cloud" style="width:60px;height:60px;"><p>Google Cloud</p></div>
+    <div class="tech-tile"><img src="https://upload.wikimedia.org/wikipedia/commons/7/77/Databricks_Logo.png" alt="Databricks" style="width:60px;height:60px;"><p>Databricks</p></div>
+    <div class="tech-tile"><img src="https://upload.wikimedia.org/wikipedia/commons/3/3e/Snowflake_Logo.svg" alt="Snowflake" style="width:60px;height:60px;"><p>Snowflake</p></div>
+    <div class="tech-tile"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python"><p>Python</p></div>
+    <div class="tech-tile"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" alt="PyTorch"><p>PyTorch</p></div>
+    <div class="tech-tile"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" alt="TensorFlow"><p>TensorFlow</p></div>
+    <div class="tech-tile"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apachekafka/apachekafka-original.svg" alt="Kafka"><p>Apache Kafka</p></div>
+    <div class="tech-tile"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apachespark/apachespark-original.svg" alt="Spark"><p>Apache Spark</p></div>
+    <div class="tech-tile"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="PostgreSQL"><p>PostgreSQL</p></div>
+    <div class="tech-tile"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB"><p>MongoDB</p></div>
+    <div class="tech-tile"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker"><p>Docker</p></div>
+    <div class="tech-tile"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" alt="Kubernetes"><p>Kubernetes</p></div>
+    <div class="tech-tile"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git"><p>Git / DevOps</p></div>
+    <div class="tech-tile"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-original.svg" alt="Terraform"><p>Terraform</p></div>
+    <div class="tech-tile"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg" alt="VS Code"><p>VS Code / Dev Tools</p></div>
   </div>
 </section>
 
-<!-- ---------- Example Solutions ---------- -->
+<!-- Sample Solutions -->
 <section>
   <h2 class="section-title">Sample AI & Data Solutions</h2>
   <div class="grid">
-    <div class="card">
-      <i class="fa-solid fa-cogs"></i>
-      <h3>Enterprise Multi-Agent Frameworks</h3>
-      <p>Autonomous AI agents collaborating on BI, software engineering, and analytics workflows.</p>
-    </div>
-    <div class="card">
-      <i class="fa-solid fa-file-circle-check"></i>
-      <h3>Automated Reporting Systems</h3>
-      <p>Self-updating dashboards powered by AI and live cloud data.</p>
-    </div>
-    <div class="card">
-      <i class="fa-solid fa-dna"></i>
-      <h3>Data Transformation Pipelines</h3>
-      <p>Real-time and batch transformations using Spark, SQL, and Delta Live Tables.</p>
-    </div>
-    <div class="card">
-      <i class="fa-solid fa-bolt"></i>
-      <h3>Event-Driven Architectures</h3>
-      <p>Streaming ingestion with Kafka and reactive analytics pipelines.</p>
-    </div
+    <div class="card"><i class="fa-solid fa-cogs"></i><h3>Enterprise Multi-Agent Frameworks</h3><p>Autonomous AI agents collaborating on BI, software engineering, and analytics workflows.</p></div>
+    <div class="card"><i class="fa-solid fa-file-circle-check"></i><h3>Automated Reporting Systems</h3><p>Self-updating dashboards powered by AI and live cloud data.</p></div>
+    <div class="card"><i class="fa-solid fa-dna"></i><h3>Data Transformation Pipelines</h3><p>Real-time and batch transformations using Spark, SQL, and Delta Live Tables.</p></div>
+    <div class="card"><i class="fa-solid fa-bolt"></i><h3>Event-Driven Architectures</h3><p>Streaming ingestion with Kafka and reactive analytics pipelines.</p></div>
+    <div class="card"><i class="fa-solid fa-chart-area"></i><h3>Predictive & Prescriptive Analytics</h3><p>Use ML for forecasting, optimization, and automated decision-making.</p></div>
+    <div class="card"><i class="fa-solid fa-user-shield"></i><h3>PII & Security Compliance</h3><p>End-to-end protection using Presidio, encryption, and role-based governance.</p></div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  © 2025 Quasar Consulting | Empowering businesses through intelligence, innovation & data-driven growth
+</footer>
+
+</body>
+</html>
